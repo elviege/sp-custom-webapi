@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" dslVersion="1.0.0.0" Id="032c5ee5-821a-4e48-98a8-c57d9b79531c" solutionId="032c5ee5-821a-4e48-98a8-c57d9b79531c" resetWebServer="false" sharePointProductVersion="16.0" name="SP.Portal.Common" xmlns="http://schemas.microsoft.com/VisualStudio/2008/SharePointTools/PackageModel">
+  <assemblies>
+    <customAssembly location="System.Web.Http.dll" deploymentTarget="GlobalAssemblyCache" sourcePath="..\packages\Microsoft.AspNet.WebApi.Core.5.2.3\lib\net45\System.Web.Http.dll" />
+    <customAssembly location="System.Web.OData.dll" deploymentTarget="GlobalAssemblyCache" sourcePath="..\packages\Microsoft.AspNet.OData.6.0.0\lib\net45\System.Web.OData.dll" />
+    <customAssembly location="System.Web.Http.WebHost.dll" deploymentTarget="GlobalAssemblyCache" sourcePath="..\packages\Microsoft.AspNet.WebApi.WebHost.5.2.3\lib\net45\System.Web.Http.WebHost.dll" />
+    <customAssembly location="System.Net.Http.Formatting.dll" deploymentTarget="GlobalAssemblyCache" sourcePath="..\packages\Microsoft.AspNet.WebApi.Client.5.2.3\lib\net45\System.Net.Http.Formatting.dll" />
+    <customAssembly location="Microsoft.OData.Edm.dll" deploymentTarget="GlobalAssemblyCache" sourcePath="..\packages\Microsoft.OData.Edm.7.0.0\lib\portable-net45+win8+wpa81\Microsoft.OData.Edm.dll" />
+    <customAssembly location="Microsoft.OData.Core.dll" deploymentTarget="GlobalAssemblyCache" sourcePath="..\packages\Microsoft.OData.Core.7.0.0\lib\portable-net45+win8+wpa81\Microsoft.OData.Core.dll" />
+    <customAssembly location="Microsoft.Extensions.DependencyInjection.Abstractions.dll" deploymentTarget="GlobalAssemblyCache" sourcePath="..\packages\Microsoft.Extensions.DependencyInjection.Abstractions.1.0.0\lib\netstandard1.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll" />
+    <customAssembly location="Microsoft.Extensions.DependencyInjection.dll" deploymentTarget="GlobalAssemblyCache" sourcePath="..\packages\Microsoft.Extensions.DependencyInjection.1.0.0\lib\netstandard1.1\Microsoft.Extensions.DependencyInjection.dll" />
+    <customAssembly location="Autofac.dll" deploymentTarget="GlobalAssemblyCache" sourcePath="..\packages\Autofac.3.5.0\lib\net40\Autofac.dll" />
+    <customAssembly location="Autofac.Integration.WebApi.dll" deploymentTarget="GlobalAssemblyCache" sourcePath="..\packages\Autofac.WebApi2.4.2.0\lib\net45\Autofac.Integration.WebApi.dll" />
+    <customAssembly location="EntityFramework.dll" deploymentTarget="GlobalAssemblyCache" sourcePath="..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.dll" />
+    <customAssembly location="EntityFramework.SqlServer.dll" deploymentTarget="GlobalAssemblyCache" sourcePath="..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.SqlServer.dll" />
+    <projectOutputAssembly location="SP.Portal.Core.dll" deploymentTarget="GlobalAssemblyCache" projectPath="..\SP.Portal.Core\SP.Portal.Core.csproj" />
+    <projectOutputAssembly location="SP.Portal.Data.dll" deploymentTarget="GlobalAssemblyCache" projectPath="..\SP.Portal.Data\SP.Portal.Data.csproj" />
+  </assemblies>
+  <features>
+    <featureReference itemId="3a5ed04a-32bf-4ba8-991c-e47ddd246439" />
+  </features>
+  <projectItems>
+    <projectItemReference itemId="179c4ca7-60c7-4dba-84aa-79c0bbd978a3" />
+  </projectItems>
+</package>
